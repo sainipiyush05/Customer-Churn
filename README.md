@@ -81,3 +81,16 @@ This project uses **Artificial Neural Networks (ANN)** to predict customer churn
 ```bash
 git clone <repository-url>
 cd Customer_Churn_ANN
+
+
+---
+
+## 📦 **2. Create a Virtual Environment**
+It is recommended to create a virtual environment to isolate the dependencies for the project.
+
+**For Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
