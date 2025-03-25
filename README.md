@@ -79,7 +79,7 @@ This project uses **Artificial Neural Networks (ANN)** to predict customer churn
 
 ### 📥 **1. Clone the Repository**
 ```bash
-git clone <https://github.com/sainipiyush05/Customer-Churn>
+git clone https://github.com/sainipiyush05/Customer-Churn
 cd Customer_Churn_ANN
 
 
