@@ -85,42 +85,28 @@ cd Customer_Churn_ANN
 
 ---
 
-📦 2. Create a Virtual Environment
+## 📦 **2. Create a Virtual Environment**
 It is recommended to create a virtual environment to isolate the dependencies for the project.
 
-For Windows:
-
-bash
-Copy
-Edit
+**For Windows:**
+```bash
 python -m venv venv
 venv\Scripts\activate
-For macOS/Linux:
 
-bash
-Copy
-Edit
-python3 -m venv venv
-source venv/bin/activate
-✅ Install dependencies:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-✅ If you don't have requirements.txt, create one:
 
-bash
-Copy
-Edit
+**If you don't have then create**
 pip freeze > requirements.txt
-🚀 5. Run the Model
-Execute the script to train and evaluate the ANN model:
 
-bash
-Copy
-Edit
+
+---
+
+## 🚀 **5. Run the Model**
+Execute the script to train and evaluate the ANN model:
+```bash
 python churn_prediction.py
+
+
 🔥 Future Enhancements
 Hyperparameter Tuning: Use GridSearchCV or RandomSearch to optimize the model parameters.
 
@@ -144,4 +130,3 @@ Piyush Saini
 📜 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and share it for personal or commercial purposes.
-
