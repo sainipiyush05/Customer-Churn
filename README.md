@@ -94,3 +94,39 @@ python -m venv venv
 venv\Scripts\activate
 
 pip install -r requirements.txt
+
+**If you don't have then create**
+pip freeze > requirements.txt
+
+
+---
+
+## 🚀 **5. Run the Model**
+Execute the script to train and evaluate the ANN model:
+```bash
+python churn_prediction.py
+
+
+🔥 Future Enhancements
+Hyperparameter Tuning: Use GridSearchCV or RandomSearch to optimize the model parameters.
+
+Ensemble Models: Combine ANN with models like XGBoost or RandomForest for improved accuracy.
+
+Deployment: Deploy the model using Flask or FastAPI to create a RESTful API.
+
+Web App: Build a Streamlit or Dash web app for user-friendly predictions.
+
+Feature Selection: Implement Recursive Feature Elimination (RFE) to identify the most significant features.
+
+Automated ML Pipeline: Use MLflow or DVC for experiment tracking and model versioning.
+
+🙌 Contributors
+Piyush Saini
+
+📧 Email: piyush.saini@example.com
+
+🛠️ GitHub: Piyush's GitHub
+
+📜 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and share it for personal or commercial purposes.
